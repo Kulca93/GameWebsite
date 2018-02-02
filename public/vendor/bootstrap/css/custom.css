@@ -1,0 +1,364 @@
+#mainNav {
+    border-color: transparent;
+    background-color: white;
+    top:10%;
+}
+
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../../../img/dragonballBig.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-primary {
+      background-color: #DD0033!important;
+
+  }
+
+.bg-primary p {
+   color: white!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    color: black;
+}
+
+nav a:hover {
+    background-color: #DD0033;
+    text-decoration: underline;
+    height: 100%;
+}
+
+nav a:active {
+    background-color: black;
+
+}
+
+.topBar input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 1.5%;
+    margin-left:20%;
+    font-size: 17px;
+    width: 40%;
+}
+
+
+.logo{
+    height: 500px;
+    width: 500px;
+    /*object-fit: cover;*/
+
+}
+
+.navBar{
+    padding: .2rem 1rem;
+    top:0;
+    margin-top:7%;
+}
+
+header.masthead h1{
+    background-color: #DD0033;
+}
+
+header.masthead h1{
+    padding: .6rem 2rem;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 1.5rem;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+
+}
+
+.topBar{
+    width:100%;
+    background-color: #3d3d3d;
+    position: fixed;
+    z-index: 500;
+    padding: .2rem 1rem;
+    top:0;
+}
+
+.topBar2{
+    width:100%;
+    background-color: #3d3d3d;
+    position: fixed;
+    z-index: 500;
+    padding: .2rem 1rem;
+
+}
+
+.topBarBtn {
+    background-color: #DD0033;
+    border: 5px solid black;
+    float: right;
+    margin-left: 10px;
+    margin-top:.6%;
+    text-transform: uppercase;
+    margin-right:20px;
+    disply:block;
+    top:0;
+}
+
+
+
+.topBarBtn h1 {
+     font-weight: 600;
+     padding:  2px 2px 2px 2px;
+
+ }
+
+.d-block{
+     height:850px;
+     width:100%;
+    padding-top: -40px;
+    object-fit: cover;
+
+ }
+
+.b-block{
+    height:300px;
+    width:100%;
+
+}
+
+.store{
+    margin-top:170px;
+    background-color:#DD0033;
+}
+
+
+.d-block h1{
+
+}
+
+
+
+#carousel1{
+    margin-top:10%;
+}
+
+.carousel-caption{
+    color: white;
+    width: fit-content;
+    text-align:center;
+    padding-left : 25px;
+    padding-right: 25px;
+    background-color: #DD0033;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.carousel-caption h1{
+
+    font-weight:700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: black;
+
+}
+
+
+.container {
+
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Logo{
+    height: 11%;
+    width: 11%;
+    padding-bottom: .5%;
+    padding-top: .4%;
+}
+
+.consoleImg{
+    padding-bottom:7%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top:-50px;
+    padding: 10px;
+}
+
+.caseImg{
+    padding-bottom:7%;
+
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    margin-top:-50px;
+    padding: 10px;
+    height: 300px;
+}
+
+.iconImg{
+    padding-bottom:-50px;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+
+    padding: 10px;
+    height: 100px;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: black;
+    margin-bottom: -80px!important;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+
+h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+
+#storeType{
+    background-color:white;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align:center;
+    padding: 1em;
+    margin-top:22px;
+    border: 5px solid black;
+    margin-bottom:5px;
+
+}
+
+#storeType h1{
+    font-size: 1.5em;
+    font-weight:800;
+
+}
+
+.list-group-item {
+    background-color:white;
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align:center;
+    padding: 1em;
+    font-weight:800;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.list-group-item:last-child {
+    border-bottom: 5px solid black;
+
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+
+
+.card-text {
+    color: black!important;
+    font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.card-price {
+    color: black!important;
+    font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align:center;
+}
+
+section {
+     padding: 2rem 0;
+}
+
+section #about {
+    margin-top: 40px;
+    display: block;
+
+}
+
+/*section #services{*/
+    /*padding: 3%;*/
+/*}*/
+
+/*section #contact{*/
+    /*padding: 5px;*/
+
+/*}*/
+
+p {
+    color: white!important;
+}
+
+#contact{
+    background-color: #3d3d3d;
+
+}
+
+/*contact .section-heading{*/
+    /*margin-top: -30px;*/
+/*}*/
+
+#my-4{
+    margin-bottom: 4px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 11em;
+    object-fit: cover;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.img-fluid{
+    object-fit: cover;
+
+}
+
+#card h-100{
+    margin-top:10px;
+}
+

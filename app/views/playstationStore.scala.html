@@ -1,0 +1,20 @@
+@(title: String, Games: Seq[Game], form: Form[Game])(implicit messages: Messages)
+
+
+@main(title, false){
+    <div class="store">
+        <div class="container">
+
+
+
+            @playstationStoreContent.apply()
+
+
+            @gameCard.apply(Games, form)
+
+
+        </div>
+    </div>
+
+
+}

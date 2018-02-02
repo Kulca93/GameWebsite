@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page)
+GET        /                      controllers.Application.index
+
+GET        /login                 controllers.Application.login
+GET        /playstation           controllers.Application.playstationStore
+GET        /xbox                  controllers.Application.xboxStore
+GET         /nintendo             controllers.Application.nintendoStore
+GET         /product                controllers.Application.product
+
+GET         /games                 controllers.Application.listGames
+GET         /games                 controllers.Application.createGames
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file           controllers.Assets.at(path="/public", file)

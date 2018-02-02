@@ -1,0 +1,26 @@
+@(games: Seq[Game], form: Form[Game])(implicit messages: Messages)
+
+<div class="row">
+
+
+@for(game <- games) {
+
+<div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="@routes.Assets.at(s"img/${game.img}")" alt="Game Image"></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">@game.name</a>
+            </h4>
+            <h5 class = "card-price">£@game.price</h5>
+            <p class="card-text">@game.description</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        </div>
+    </div>
+</div>
+
+}
+
+</div>
